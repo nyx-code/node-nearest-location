@@ -17,9 +17,9 @@ app.use(bodyParser.json())
 
 
 app.get('/', (req, res)=>{
-    console.log('My new endpoint')
+    console.log('This first Route')
 
-    res.send('Hello World')
+    res.send('Hello Node')
 })
 
 app.post('/get-nearby', (req, res) => {
